@@ -17,6 +17,7 @@ export interface Client {
   state: string;
   zipCode?: string;
   connectionType?: 'Monofásico' | 'Bifásico' | 'Trifásico';
+  observations?: string;
 }
 
 export interface FinancialRecord {
@@ -73,4 +74,5 @@ export interface ClientFormData {
   
   // Projeto
   projectStatus: string;
+  observations?: string;
 }
